@@ -1,0 +1,26 @@
+AROMA VALLE' STORE MANAGER - VERSION 2.6.9
+
+WHERE TO MANAGE PRODUCTS
+WordPress Dashboard > Aroma Valle' > Products & Prices
+
+ADD A PRODUCT
+WordPress Dashboard > Aroma Valle' > Add New Product
+Enter the product name, type, collection, brand/inspired-by, fragrance family/notes, customer-facing description, strength, image and bottle prices. Save. Then open Products & Prices to change visibility or stock later.
+
+EDIT AN EXISTING PRODUCT
+Open Products & Prices. Select Individual Perfumes or Signature Blends. Update the product fields and prices, then click Save this page of products. Products are shown 15 per page to avoid server input limits.
+
+HIDE / RESTORE A PRODUCT
+In Products & Prices, set Website status to Hidden to remove a product from the public shop while retaining its data. Set it back to Active to show it again. This works for both original catalogue products and custom products.
+
+STOCK STATUS
+Set Stock status to Out of stock to disable Add to Cart and show an Out of stock message. Orders are also checked server-side. Set back to In stock when available.
+
+DELETE A PRODUCT
+Custom products added through Add New Product have a Delete product action. It permanently removes that custom product and its saved overrides. Original catalogue products are not permanently deleted from the bundled catalogue; use Website status = Hidden to safely remove them from the public shop and restore them later.
+
+IMAGES
+Use Choose image to select/upload a product photo from the WordPress Media Library. Save the current page after changes.
+
+BACKUP
+Before bulk changes, keep a current WordPress backup. Existing catalogue data and product overrides are stored in WordPress options; plugin updates do not overwrite saved overrides.
