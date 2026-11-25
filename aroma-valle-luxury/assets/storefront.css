@@ -1,0 +1,700 @@
+.avlux{--avlux-gold:#c6a15b;--avlux-ink:#14120f;--avlux-cream:#f5f0e7;--avlux-muted:#82796d;color:var(--avlux-ink);background:#f5f0e7;font-family:Arial,Helvetica,sans-serif;line-height:1.5;overflow:hidden}.avlux *{box-sizing:border-box}.avlux a{text-decoration:none}.avlux-announcement{background:#171512;color:#d8c39c;text-align:center;padding:9px 15px;font-size:10px;letter-spacing:1.8px;text-transform:uppercase}.avlux-header{height:88px;background:#f7f3ec;display:flex;align-items:center;justify-content:space-between;padding:0 max(4vw,24px);gap:22px;border-bottom:1px solid #e5ddcf}.avlux-logo{display:flex;align-items:center;gap:10px;color:#171512;font:27px Georgia,serif;white-space:nowrap}.avlux-logo small{display:block;text-align:center;font:8px Arial,sans-serif;letter-spacing:3px;margin-top:2px;color:#98825a}.avlux-mark{font-size:34px;color:var(--avlux-gold)}.avlux-nav{display:flex;align-items:center;gap:clamp(12px,2vw,30px)}.avlux-nav a,.avlux-header-cta{font-size:11px;letter-spacing:1px;text-transform:uppercase;color:#39342c}.avlux-nav a:hover,.avlux-header-cta:hover{color:#a17b39}.avlux-header-cta{border:1px solid #b79a62;padding:12px 17px}.avlux-header-cta span{margin-left:12px}.avlux-hero{min-height:640px;background:#14110e;color:#f5f0e7;position:relative;display:flex;align-items:center;padding:75px max(7vw,28px);isolation:isolate}.avlux-hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#100e0b 0%,rgba(16,14,11,.96) 29%,rgba(16,14,11,.35) 60%,rgba(16,14,11,.05) 100%);z-index:-1}.avlux-hero-image{position:absolute;z-index:-2;inset:0 0 0 28%;background-image:var(--avlux-hero);background-position:center right;background-size:cover;opacity:.96}.avlux-hero-copy{max-width:590px;position:relative;z-index:1}.avlux-eyebrow{font-size:10px;letter-spacing:3px;color:#a98a50;text-transform:uppercase}.avlux-hero h1,.avlux-section h2,.avlux-story h2,.avlux-final-cta h2,.avlux-inner-page h1{font:clamp(43px,6vw,78px)/1.06 Georgia,'Times New Roman',serif;letter-spacing:-1.8px;margin:23px 0;color:inherit}.avlux em{font-weight:400;color:#b99759}.avlux-hero p{max-width:450px;color:#d0c7b9;font-size:15px;line-height:1.9}.avlux-actions{display:flex;align-items:center;gap:27px;flex-wrap:wrap;margin-top:32px}.avlux-btn{display:inline-flex;align-items:center;gap:22px;padding:16px 23px;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;font-weight:bold;transition:.25s}.avlux-btn-gold{background:var(--avlux-gold);color:#17130d!important;border:1px solid var(--avlux-gold)}.avlux-btn-gold:hover{background:#e1c78f;border-color:#e1c78f}.avlux-btn-dark{background:#171512;color:#f6f0e5!important;border:1px solid #171512}.avlux-btn-dark:hover{background:#94753e}.avlux-text-link{color:#e8dcc5;font-size:11px;border-bottom:1px solid #8d774e;padding-bottom:7px}.avlux-hero-note{font-size:9px;letter-spacing:2px;color:#a89b83;margin-top:65px}.avlux-hero-note span{color:var(--avlux-gold);font-size:15px;margin-right:10px}.avlux-hero-index{position:absolute;bottom:35px;right:5%;font:13px Georgia,serif;color:#d7c8aa;letter-spacing:3px}.avlux-hero-index i{display:inline-block;width:65px;height:1px;background:#9e814c;vertical-align:middle;margin:0 12px}.avlux-promises{display:grid;grid-template-columns:repeat(4,1fr);background:#eee7da;padding:28px 6%;gap:20px;border-bottom:1px solid #e1d7c5}.avlux-promises>div{display:flex;align-items:center;justify-content:center;gap:13px}.avlux-promises b{font:26px Georgia,serif;color:#a9884c}.avlux-promises strong,.avlux-promises small{display:block}.avlux-promises strong{font:14px Georgia,serif;color:#332d23}.avlux-promises small{font-size:10px;color:#8d8374;margin-top:3px}.avlux-section{padding:100px max(6vw,24px)}.avlux-section-heading{display:flex;justify-content:space-between;align-items:end;gap:40px;margin-bottom:42px}.avlux-section-heading h2,.avlux-center-heading h2{font-size:clamp(38px,4.5vw,58px);margin:14px 0 0}.avlux-section-heading>p{max-width:370px;color:#80776b;font-size:13px;line-height:1.9;margin:0 0 6px}.avlux-collection-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.avlux-collection{height:370px;position:relative;display:flex;flex-direction:column;justify-content:end;padding:25px;color:#fff;overflow:hidden;background-image:linear-gradient(0deg,rgba(0,0,0,.82),rgba(0,0,0,.03) 70%),var(--avlux-hero);background-size:cover;background-position:center;transition:transform .35s}.avlux-collection:hover{transform:translateY(-5px)}.avlux-collection:after{content:"";position:absolute;inset:0;border:1px solid rgba(214,185,127,.55);pointer-events:none}.avlux-collection-one{background-position:70% center}.avlux-collection-two{background-position:85% center;filter:saturate(.8)}.avlux-collection-three{background-position:50% center}.avlux-collection-four{background-position:100% center;filter:sepia(.18)}.avlux-collection span{font-size:9px;letter-spacing:2px;color:#e3c98f}.avlux-collection strong{font:32px Georgia,serif;margin:7px 0}.avlux-collection i{font-style:normal;font-size:10px;letter-spacing:1px}.avlux-bestsellers{background:#eee7da}.avlux-center-heading{text-align:center;margin:0 auto 45px}.avlux-center-heading p{font-size:13px;color:#82796d}.avlux-bestsellers .woocommerce ul.products{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin:0}.avlux-bestsellers .woocommerce ul.products:before,.avlux-bestsellers .woocommerce ul.products:after{display:none}.avlux-bestsellers .woocommerce ul.products li.product{float:none;width:auto;margin:0;padding:14px;background:#f8f4ec;border:1px solid #e2d7c4}.avlux-bestsellers .woocommerce ul.products li.product img{aspect-ratio:4/5;object-fit:cover}.avlux-bestsellers .woocommerce ul.products li.product .woocommerce-loop-product__title{font:20px Georgia,serif;color:#28231b}.avlux-bestsellers .woocommerce ul.products li.product .price{color:#92733e}.avlux-bestsellers .woocommerce a.button,.avlux-bestsellers .woocommerce button.button{background:#171512;color:#f7f0e5;border-radius:0;text-transform:uppercase;font-size:10px;letter-spacing:1px}.avlux-empty-products{text-align:center;padding:40px 20px;border:1px solid #d9cdb8;max-width:650px;margin:auto}.avlux-empty-products>span{font-size:35px;color:#b28f4e}.avlux-empty-products h3{font:28px Georgia,serif}.avlux-empty-products p{color:#81786c;font-size:13px;margin-bottom:24px}.avlux-story{display:grid;grid-template-columns:1.05fr .95fr;min-height:530px;background:#181511;color:#f4eddf}.avlux-story-image{background-image:var(--avlux-hero);background-size:cover;background-position:70% center;min-height:500px}.avlux-story-copy{padding:85px clamp(30px,7vw,100px);align-self:center}.avlux-story h2{font-size:clamp(38px,4vw,57px)}.avlux-story-copy p{color:#c1b6a4;font-size:13px;line-height:2}.avlux-underlined{display:inline-block;margin-top:18px;padding-bottom:8px;border-bottom:1px solid #aa8a4f;color:#e4ce9f;font-size:11px;letter-spacing:1px}.avlux-underlined span{margin-left:18px}.avlux-quote{text-align:center;padding:85px 20px;background:#eae2d4}.avlux-quote>span{font-size:30px;color:#a9884c}.avlux-quote blockquote{font:italic clamp(24px,3.2vw,38px)/1.35 Georgia,serif;max-width:850px;margin:20px auto;color:#3c3429}.avlux-quote small{font-size:9px;letter-spacing:3px;color:#92733e}.avlux-final-cta{text-align:center;background:#171512;color:#f7f0e5;padding:85px 20px}.avlux-final-cta h2{font-size:clamp(40px,5vw,64px);margin:17px 0 30px}.avlux-footer{background:#0e0d0b;color:#d8cdbb;text-align:center;padding:55px 20px 28px}.avlux-footer .avlux-logo{justify-content:center;color:#f1e7d5}.avlux-footer p{font:italic 17px Georgia,serif;color:#ad9d80;margin:22px 0}.avlux-footer>div{display:flex;justify-content:center;gap:25px;flex-wrap:wrap;margin:25px 0}.avlux-footer>div a{font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#d5c7ad}.avlux-footer>small{font-size:9px;letter-spacing:1px;color:#7f7566}.avlux-inner-page{max-width:900px;margin:70px auto;padding:75px 35px;text-align:center;background:#f5f0e7;color:#211e19}.avlux-inner-page h1{font-size:clamp(40px,5vw,65px)}.avlux-inner-page p{max-width:650px;margin:18px auto;color:#756d62;font-size:15px;line-height:2}.avlux-page-active #page,.avlux-page-active .site-main{max-width:none!important;padding:0!important}.avlux-page-active .entry-header,.avlux-page-active .page-header{display:none!important}
+@media(max-width:950px){.avlux-nav{gap:12px}.avlux-nav a{font-size:9px}.avlux-collection-grid{grid-template-columns:repeat(2,1fr)}.avlux-collection{height:320px}.avlux-promises{grid-template-columns:repeat(2,1fr)}.avlux-bestsellers .woocommerce ul.products{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.avlux-header{height:auto;min-height:76px;flex-wrap:wrap;padding:15px 20px}.avlux-logo{font-size:23px}.avlux-nav{order:3;width:100%;overflow:auto;padding:10px 0 3px;justify-content:flex-start}.avlux-nav a{white-space:nowrap}.avlux-header-cta{margin-left:auto;padding:9px 11px}.avlux-hero{min-height:620px;padding:70px 25px 90px;align-items:end}.avlux-hero-image{inset:0;background-position:64% center;opacity:.75}.avlux-hero:before{background:linear-gradient(0deg,rgba(12,10,8,.98),rgba(12,10,8,.72) 48%,rgba(12,10,8,.08))}.avlux-hero h1{font-size:48px}.avlux-hero-note{margin-top:40px}.avlux-promises{padding:22px 15px;gap:18px 10px}.avlux-promises>div{justify-content:flex-start}.avlux-promises strong{font-size:12px}.avlux-promises small{font-size:9px}.avlux-section{padding:65px 20px}.avlux-section-heading{display:block}.avlux-section-heading>p{margin-top:20px}.avlux-collection-grid{gap:10px}.avlux-collection{height:260px;padding:16px}.avlux-collection strong{font-size:25px}.avlux-story{grid-template-columns:1fr}.avlux-story-image{min-height:320px}.avlux-story-copy{padding:55px 25px}.avlux-bestsellers .woocommerce ul.products{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.avlux-actions{gap:18px}.avlux-final-cta{padding:65px 20px}}
+@media(max-width:380px){.avlux-collection-grid,.avlux-bestsellers .woocommerce ul.products{grid-template-columns:1fr}.avlux-collection{height:300px}.avlux-promises{grid-template-columns:1fr 1fr}.avlux-hero h1{font-size:42px}}
+
+/* Workbook-powered fragrance catalogue */
+.avlux-catalog{padding:42px 0;color:#211e19}.avlux-catalog-head{text-align:center;margin:0 auto 30px;max-width:720px}.avlux-catalog-head h2{font:clamp(34px,4vw,52px)/1.1 Georgia,serif;margin:12px 0;color:#211e19}.avlux-catalog-head h2 em{color:#a9884c}.avlux-catalog-head p{color:#82796d;font-size:13px}.avlux-catalog-filters{display:flex;gap:10px;flex-wrap:wrap;align-items:center;padding:16px;background:#eee7da;border:1px solid #e0d5c3;margin:25px 0}.avlux-catalog-filters input,.avlux-catalog-filters select{min-height:44px;border:1px solid #d6cbb8;background:#faf7f1;padding:0 13px;color:#332d23;font-size:12px;flex:1;min-width:150px}.avlux-catalog-filters button{min-height:44px;padding:0 18px;background:#171512;color:#f8f1e6;border:0;text-transform:uppercase;font-size:10px;letter-spacing:1px;cursor:pointer}.avlux-catalog-filters>a{font-size:11px;color:#80683e;padding:10px}.avlux-catalog-count{font-size:11px;letter-spacing:1px;color:#5c5142;margin:18px 0}.avlux-catalog-count span{color:#988b78}.avlux-product-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:17px}.avlux-product-card{background:#fbf8f2;border:1px solid #e4dac9;min-width:0;transition:transform .25s,box-shadow .25s}.avlux-product-card:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(43,32,17,.1)}.avlux-product-image{height:230px;position:relative;overflow:hidden;background:#211a13}.avlux-product-image:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.3),transparent 55%)}.avlux-product-image img{width:100%;height:100%;object-fit:cover;display:block;opacity:.9}.avlux-product-image>span{position:absolute;z-index:1;left:13px;bottom:12px;color:#f0d9a7;font-size:8px;letter-spacing:2px}.avlux-product-info{padding:16px}.avlux-product-meta{font-size:9px;text-transform:uppercase;letter-spacing:1.4px;color:#987a46}.avlux-product-info h3{font:21px/1.2 Georgia,serif;margin:8px 0 4px;color:#211e19}.avlux-product-brand{font-size:10px;color:#8c8172;margin:0 0 7px}.avlux-product-notes{font-size:11px;color:#6f665a;line-height:1.6;min-height:34px;margin:8px 0}.avlux-blend-prices{display:grid;grid-template-columns:repeat(3,1fr);gap:5px;margin:12px 0}.avlux-blend-prices span{display:block;background:#eee7da;padding:7px 5px;text-align:center}.avlux-blend-prices small,.avlux-blend-prices b{display:block}.avlux-blend-prices small{font-size:9px;color:#847865}.avlux-blend-prices b{font-size:10px;color:#70572c;margin-top:3px}.avlux-price-request{font:italic 15px Georgia,serif;color:#8c6d39;padding:9px 0 13px}.avlux-product-cta{display:flex;justify-content:space-between;align-items:center;background:#171512;color:#f8f1e6!important;padding:12px 13px;font-size:9px;text-transform:uppercase;letter-spacing:1px}.avlux-product-cta:hover{background:#92733e}.avlux-catalog-note{font-size:10px;color:#8b8173;line-height:1.7;margin-top:25px}.avlux-no-results{text-align:center;padding:40px;background:#eee7da;color:#6f665a;font:20px Georgia,serif}
+@media(max-width:950px){.avlux-product-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.avlux-product-image{height:210px}}
+@media(max-width:650px){.avlux-catalog{padding:25px 0}.avlux-product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.avlux-product-image{height:170px}.avlux-product-info{padding:11px}.avlux-product-info h3{font-size:17px}.avlux-product-notes{font-size:10px}.avlux-blend-prices{gap:3px}.avlux-blend-prices span{padding:6px 2px}.avlux-blend-prices b{font-size:9px}.avlux-catalog-filters{display:grid;grid-template-columns:1fr 1fr}.avlux-catalog-filters input{grid-column:1/-1}.avlux-catalog-filters button{font-size:9px;padding:0 8px}}
+
+
+/* v1.2.0: full-bleed homepage compatibility for WordPress block and classic themes */
+body.avlux-page-active {
+  overflow-x: hidden;
+}
+body.avlux-page-active .avlux {
+  width: 100vw !important;
+  max-width: 100vw !important;
+  margin-left: calc(50% - 50vw) !important;
+  margin-right: calc(50% - 50vw) !important;
+  position: relative;
+}
+body.avlux-page-active .wp-site-blocks,
+body.avlux-page-active .wp-site-blocks > main,
+body.avlux-page-active main,
+body.avlux-page-active .site-main,
+body.avlux-page-active #page,
+body.avlux-page-active .entry-content,
+body.avlux-page-active .wp-block-post-content,
+body.avlux-page-active .is-layout-constrained {
+  max-width: none !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+body.avlux-page-active .wp-block-post-title,
+body.avlux-page-active .entry-title,
+body.avlux-page-active .page-title,
+body.avlux-page-active .entry-header,
+body.avlux-page-active .page-header {
+  display: none !important;
+}
+body.avlux-page-active .wp-site-blocks > header,
+body.avlux-page-active .wp-site-blocks > footer,
+body.avlux-page-active header.wp-block-template-part,
+body.avlux-page-active footer.wp-block-template-part,
+body.avlux-page-active #masthead,
+body.avlux-page-active #colophon,
+body.avlux-page-active .site-header,
+body.avlux-page-active .site-footer {
+  display: none !important;
+}
+body.avlux-page-active .avlux-hero h1 {
+  white-space: normal;
+  overflow-wrap: normal;
+}
+@media (max-width: 650px) {
+  body.avlux-page-active .avlux {
+    width: 100vw !important;
+    max-width: 100vw !important;
+  }
+}
+
+
+/* v1.4.0: real workbook-driven collections */
+.avlux-collections-live{width:100%}
+.avlux-collections-intro{text-align:center;padding:70px 25px 25px;background:#f5f0e7}
+.avlux-collections-intro h1{font:clamp(40px,5vw,64px)/1.1 Georgia,serif;color:#211e19;margin:12px 0}
+.avlux-collections-intro h1 em{color:#a9884c}
+.avlux-collections-intro p{color:#82796d;font-size:14px}
+.avlux-collection-grid-live{padding:20px 0 45px}
+.avlux-live-collection{padding:45px clamp(20px,5vw,75px);border-top:1px solid #e5dccd}
+.avlux-live-collection:nth-of-type(even){background:#f6f1e8}
+.avlux-live-collection-heading{display:flex;align-items:end;justify-content:space-between;gap:25px;margin-bottom:15px}
+.avlux-live-collection-heading h2{font:clamp(30px,3vw,42px)/1.1 Georgia,serif;color:#211e19;margin:8px 0}
+.avlux-live-collection-heading p{font-size:12px;color:#82796d;margin:0}
+.avlux-live-collection-heading>a{font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#856a3d;white-space:nowrap;border-bottom:1px solid #b99a61;padding-bottom:7px}
+.avlux-live-collection .avlux-catalog{padding:10px 0 0}
+.avlux-live-collection .avlux-catalog-head{display:none}
+.avlux-live-collection .avlux-catalog-count{margin:8px 0 14px}
+.avlux-live-collection .avlux-catalog-note{display:none}
+.avlux-collections-live .avlux-product-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media(max-width:650px){
+ .avlux-live-collection{padding:32px 18px}
+ .avlux-live-collection-heading{display:block}
+ .avlux-live-collection-heading>a{display:inline-block;margin-top:14px}
+ .avlux-collections-intro{padding:45px 18px 15px}
+ .avlux-collections-live .avlux-product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+
+
+/* Full-width standalone collections landing page */
+body.avlux-collections-page-active{overflow-x:hidden;background:#f5f0e7}
+body.avlux-collections-page-active .wp-site-blocks,
+body.avlux-collections-page-active .wp-site-blocks>main,
+body.avlux-collections-page-active main,
+body.avlux-collections-page-active .site-main,
+body.avlux-collections-page-active #page,
+body.avlux-collections-page-active .entry-content,
+body.avlux-collections-page-active .wp-block-post-content,
+body.avlux-collections-page-active .is-layout-constrained{max-width:none!important;width:100%!important;padding-left:0!important;padding-right:0!important;margin-left:0!important;margin-right:0!important}
+body.avlux-collections-page-active .wp-block-post-title,
+body.avlux-collections-page-active .entry-title,
+body.avlux-collections-page-active .page-title,
+body.avlux-collections-page-active .entry-header,
+body.avlux-collections-page-active .page-header{display:none!important}
+body.avlux-collections-page-active .wp-site-blocks>header,
+body.avlux-collections-page-active .wp-site-blocks>footer,
+body.avlux-collections-page-active header.wp-block-template-part,
+body.avlux-collections-page-active footer.wp-block-template-part,
+body.avlux-collections-page-active #masthead,
+body.avlux-collections-page-active #colophon,
+body.avlux-collections-page-active .site-header,
+body.avlux-collections-page-active .site-footer{display:none!important}
+body.avlux-collections-page-active .avlux-collections-live{width:100vw;max-width:100vw;margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw)}
+
+
+/* Aroma Valle' v1.6.0 shopping bag and COD checkout */
+.avlux-v16-catalog .avlux-product-card{height:100%;display:flex;flex-direction:column}
+.avlux-v16-catalog .avlux-product-info{display:flex;flex:1;flex-direction:column}
+.avlux-v16-catalog .avlux-product-cta{margin-top:auto;cursor:pointer;border:0;font:inherit;text-align:center}
+.avlux-v16-size-label{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;margin:12px 0 6px;color:#8c713f}
+.avlux-v16-size{width:100%;padding:10px;border:1px solid #d8cbb2;background:#fff;color:#211c16}
+.avlux-v16-unpriced{display:block;margin-top:auto;padding:12px 0;color:#8b6b38;font-size:12px;line-height:1.5}
+.avlux-v16-cartbar{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:18px 20px;margin:22px 0;background:#17130f;color:#f6f0e6}
+.avlux-v16-cartbar strong span{display:inline-flex;align-items:center;justify-content:center;margin-left:8px;width:25px;height:25px;border-radius:50%;background:#c6a15b;color:#17130f}
+.avlux-v16-cartbar button,.avlux-v16-form button{background:#c6a15b;color:#17130f;border:0;padding:13px 20px;font-weight:700;cursor:pointer}
+.avlux-v16-checkout{margin:45px 0;padding:clamp(20px,4vw,48px);background:#f5f0e7;color:#211c16}
+.avlux-v16-line{display:flex;justify-content:space-between;gap:20px;padding:15px 0;border-bottom:1px solid #d8cbb2}
+.avlux-v16-line small{display:block;margin-top:5px;color:#756b5d}
+.avlux-v16-line button{border:0;background:none;color:#8c713f;text-decoration:underline;cursor:pointer;margin-left:12px}
+.avlux-v16-total{display:flex;justify-content:space-between;align-items:center;padding:22px 0;font-size:18px;border-bottom:1px solid #c9b999}
+.avlux-v16-total strong{font-size:24px}
+.avlux-v16-form{max-width:850px;margin:28px auto 0}
+.avlux-v16-form h3{font-family:Georgia,serif;font-size:26px;margin:0 0 20px}
+.avlux-v16-fields{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.avlux-v16-fields label{display:block;font-size:13px;color:#4d4438}
+.avlux-v16-fields input,.avlux-v16-fields textarea{display:block;width:100%;margin-top:7px;padding:12px;border:1px solid #d5c9b4;background:#fff;color:#211c16;border-radius:0;box-sizing:border-box}
+.avlux-v16-fields .wide{grid-column:1/-1}
+.avlux-v16-cod{margin:22px 0;padding:16px;border:1px solid #c6a15b;background:#fff}
+.avlux-v16-cod p{margin:6px 0 0}
+.avlux-v16-terms{display:flex;gap:9px;align-items:flex-start;margin:18px 0}
+.avlux-v16-form button{width:100%;font-size:14px;letter-spacing:.08em;text-transform:uppercase}
+.avlux-v16-form button:disabled{opacity:.45;cursor:not-allowed}
+.avlux-v16-form>small{display:block;margin-top:12px;color:#746b5e;line-height:1.6}
+.avlux-v16-success{margin:30px 0;padding:28px;background:#f5f0e7;border-left:4px solid #c6a15b}
+.avlux-v16-email{margin:28px 0;padding:22px;border:1px solid #d8cbb2;display:flex;flex-direction:column;gap:8px}
+.avlux-v16-email a{color:#8b6b38;font-size:18px}
+@media(max-width:650px){.avlux-v16-fields{grid-template-columns:1fr}.avlux-v16-fields .wide{grid-column:auto}.avlux-v16-cartbar{align-items:flex-start;flex-direction:column}.avlux-v16-cartbar button{width:100%}.avlux-v16-line{flex-direction:column}.avlux-v16-total strong{font-size:20px}}
+
+/* v1.7 sale pricing */
+.avlux-v17-price{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.avlux-v17-price del{color:#8d8377;font-size:.9em;font-weight:400}
+.avlux-v17-price strong{color:#9b2929;font-size:1.08em;font-weight:700}
+.avlux-sale-badge{display:inline-block;background:#9b2929;color:#fff;padding:3px 8px;border-radius:2px;font-size:10px;letter-spacing:.12em;font-weight:700}
+.avlux-v16-size option{font-family:inherit}
+
+/* v2.0 editable catalogue and featured-card cart actions */
+.avlux-v16-preview-cart{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 18px;margin:14px 0 24px;border:1px solid #d9c9a8;background:#f8f4ec;color:#211c16;font-size:13px;letter-spacing:.04em}
+.avlux-v16-preview-cart a{color:#8d6c32;text-decoration:none;border-bottom:1px solid #b89454;padding-bottom:3px}
+.avlux-v16-add{cursor:pointer}
+.avlux-v16-size{width:100%;min-height:42px;padding:9px 12px;border:1px solid #d8c8a8;background:#fff;color:#211c16}
+.avlux-products-table input[type=text],.avlux-products-table input[type=number]{max-width:150px}
+@media(max-width:640px){.avlux-v16-preview-cart{align-items:flex-start;flex-direction:column}}
+
+/* v2.3 editable page imagery */
+.avlux-page-image{display:block;width:100%;max-height:420px;object-fit:cover;margin:0 0 28px}
+
+/* Aroma Valle' v2.5.0 — standalone collection page visual repair */
+.avlux-collections-live{background:#f5f0e7;color:#211e19;min-height:100vh}
+.avlux-standalone-header{min-height:88px;padding:12px clamp(18px,5vw,76px);display:flex;align-items:center;justify-content:space-between;gap:24px;background:#fbf8f2;border-bottom:1px solid #e5dccd}
+.avlux-standalone-header nav{display:flex;align-items:center;justify-content:center;gap:clamp(12px,2vw,28px);flex-wrap:wrap}
+.avlux-standalone-header nav a{font-size:10px;letter-spacing:1.2px;text-transform:uppercase;color:#39342c;padding:10px 0;border-bottom:1px solid transparent}
+.avlux-standalone-header nav a:hover,.avlux-standalone-header nav a.is-current{color:#98763c;border-color:#b99a61}
+.avlux-standalone-header .avlux-logo,.avlux-standalone-footer .avlux-logo{font-size:25px}
+.avlux-standalone-header .avlux-header-cta{white-space:nowrap}
+.avlux-collections-intro{padding:74px 22px 34px!important}
+.avlux-collections-intro h1{font-size:clamp(42px,5vw,68px)!important;letter-spacing:-1.5px}
+.avlux-collections-intro p{max-width:650px;margin:0 auto;line-height:1.8}
+.avlux-collection-grid-live{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;padding:20px clamp(16px,3vw,46px) 54px!important}
+.avlux-collection-grid-live .avlux-collection{height:clamp(340px,27vw,440px);min-height:340px;background-size:cover!important;background-position:center!important;filter:none!important;border:1px solid rgba(180,145,83,.35);box-shadow:0 12px 28px rgba(42,31,17,.08)}
+.avlux-collection-grid-live .avlux-collection:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.03) 35%,rgba(0,0,0,.58) 100%);transition:opacity .25s}
+.avlux-collection-grid-live .avlux-collection:hover:before{opacity:.78}
+.avlux-collection-grid-live .avlux-collection span,.avlux-collection-grid-live .avlux-collection strong,.avlux-collection-grid-live .avlux-collection i{position:relative;z-index:1;text-shadow:0 2px 12px rgba(0,0,0,.65)}
+.avlux-collection-grid-live .avlux-collection span{font-size:10px;color:#f1d7a4}
+.avlux-collection-grid-live .avlux-collection strong{font-size:clamp(25px,2.2vw,36px);line-height:1.1;color:#fff}
+.avlux-collection-grid-live .avlux-collection i{font-size:10px;color:#fff}
+.avlux-live-collection{padding-top:55px;padding-bottom:55px}
+.avlux-live-collection .avlux-product-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.avlux-standalone-footer{background:#15120e;color:#e9deca;text-align:center;padding:54px 20px 30px}
+.avlux-standalone-footer .avlux-logo{justify-content:center;color:#f6ecda}
+.avlux-standalone-footer p{font:italic 17px Georgia,serif;color:#b6a17c;margin:20px 0}
+.avlux-standalone-footer>div{display:flex;justify-content:center;gap:26px;flex-wrap:wrap;margin:22px 0}
+.avlux-standalone-footer>div a{font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#e2d2b3}
+.avlux-standalone-footer>small{font-size:9px;letter-spacing:1px;color:#9b907e}
+@media(max-width:1000px){.avlux-collection-grid-live{grid-template-columns:repeat(2,minmax(0,1fr))}.avlux-collection-grid-live .avlux-collection{height:380px}.avlux-standalone-header{flex-wrap:wrap}.avlux-standalone-header nav{order:3;width:100%;padding:5px 0}}
+@media(max-width:650px){.avlux-standalone-header{padding:14px 18px}.avlux-standalone-header .avlux-header-cta{padding:9px 11px;font-size:9px}.avlux-standalone-header nav{justify-content:flex-start;overflow-x:auto;flex-wrap:nowrap}.avlux-standalone-header nav a{white-space:nowrap}.avlux-collections-intro{padding:48px 18px 20px!important}.avlux-collection-grid-live{grid-template-columns:1fr;padding:15px 16px 35px!important;gap:13px}.avlux-collection-grid-live .avlux-collection{height:390px;min-height:0}.avlux-live-collection{padding:35px 16px}.avlux-collections-live .avlux-product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Aroma Valle' v2.6.1 — collection cards: clean image artwork and one HTML title only */
+.avlux-collection-grid-live .avlux-collection::after{content:none!important}
+.avlux-collection-grid-live .avlux-collection::before{z-index:0}
+.avlux-collection-grid-live .avlux-collection > span,
+.avlux-collection-grid-live .avlux-collection > strong,
+.avlux-collection-grid-live .avlux-collection > i{position:relative;z-index:2}
+.avlux-collection-grid-live .avlux-collection > strong{display:block;text-transform:none!important;opacity:1!important}
+.avlux-collection-grid-live .avlux-collection > strong::before,
+.avlux-collection-grid-live .avlux-collection > strong::after{content:none!important;display:none!important}
+
+/* Aroma Valle' v2.6.2 — clean, text-free collection photography */
+.avlux-collection-grid-live .avlux-collection{
+  background-repeat:no-repeat!important;
+  background-size:cover!important;
+  background-position:center center!important;
+  overflow:hidden;
+  isolation:isolate;
+}
+.avlux-collection-grid-live .avlux-collection::before{
+  content:""!important;
+  position:absolute!important;
+  inset:0!important;
+  background:linear-gradient(180deg,rgba(0,0,0,.02) 42%,rgba(0,0,0,.64) 100%)!important;
+  z-index:0!important;
+  pointer-events:none;
+}
+.avlux-collection-grid-live .avlux-collection > span,
+.avlux-collection-grid-live .avlux-collection > strong,
+.avlux-collection-grid-live .avlux-collection > i{
+  position:relative!important;
+  z-index:1!important;
+}
+
+
+/* Aroma Valle' v2.6.3 — remove theme-injected top whitespace on storefront pages.
+   The storefront supplies its own header, so theme header/template spacing is not needed. */
+body.avlux-page-active,
+body.avlux-collections-page-active{overflow-x:hidden!important}
+body.avlux-page-active .wp-site-blocks,
+body.avlux-page-active .wp-site-blocks > main,
+body.avlux-page-active main,
+body.avlux-page-active #page,
+body.avlux-page-active #content,
+body.avlux-page-active .site-content,
+body.avlux-page-active .content-area,
+body.avlux-page-active #primary,
+body.avlux-page-active .site-main,
+body.avlux-page-active .entry-content,
+body.avlux-page-active .wp-block-post-content,
+body.avlux-page-active .wp-block-shortcode,
+body.avlux-page-active .wp-block-post-content > :first-child,
+body.avlux-page-active .entry-content > :first-child,
+body.avlux-page-active .avlux{
+  margin-block-start:0!important;
+  padding-block-start:0!important;
+}
+body.avlux-page-active .wp-site-blocks,
+body.avlux-page-active .wp-site-blocks > main,
+body.avlux-page-active main,
+body.avlux-page-active #page,
+body.avlux-page-active #content,
+body.avlux-page-active .site-content,
+body.avlux-page-active .content-area,
+body.avlux-page-active #primary,
+body.avlux-page-active .site-main,
+body.avlux-page-active .entry-content,
+body.avlux-page-active .wp-block-post-content{
+  min-height:0!important;
+}
+body.avlux-page-active .wp-site-blocks > .wp-block-template-part:has(header),
+body.avlux-page-active .wp-site-blocks > .wp-block-group:has(> header),
+body.avlux-page-active #page > header,
+body.avlux-page-active #page > .site-header,
+body.avlux-page-active .wp-block-spacer{
+  display:none!important;
+  height:0!important;
+  min-height:0!important;
+  margin:0!important;
+  padding:0!important;
+}
+body.avlux-page-active .avlux{width:100vw!important;max-width:100vw!important;margin-inline:calc(50% - 50vw)!important;position:relative;}
+body.avlux-collections-page-active .wp-site-blocks,
+body.avlux-collections-page-active .wp-site-blocks > main,
+body.avlux-collections-page-active main,
+body.avlux-collections-page-active #page,
+body.avlux-collections-page-active #content,
+body.avlux-collections-page-active .site-content,
+body.avlux-collections-page-active .content-area,
+body.avlux-collections-page-active #primary,
+body.avlux-collections-page-active .site-main,
+body.avlux-collections-page-active .entry-content,
+body.avlux-collections-page-active .wp-block-post-content,
+body.avlux-collections-page-active .avlux-collections-live{
+  margin-block-start:0!important;
+  padding-block-start:0!important;
+}
+body.avlux-collections-page-active .wp-site-blocks > .wp-block-template-part:has(header),
+body.avlux-collections-page-active .wp-site-blocks > .wp-block-group:has(> header),
+body.avlux-collections-page-active #page > header,
+body.avlux-collections-page-active #page > .site-header,
+body.avlux-collections-page-active .wp-block-spacer{
+  display:none!important;height:0!important;min-height:0!important;margin:0!important;padding:0!important;
+}
+
+
+/* Aroma Valle' v2.6.4 — stronger removal of theme header gap on the custom home page.
+   Keep the storefront's own .avlux-header visible; remove only theme-generated headers. */
+html:has(body.avlux-page-active),
+body.avlux-page-active{
+  margin-top:0!important;
+  padding-top:0!important;
+}
+body.avlux-page-active #wpadminbar{top:0!important}
+body.avlux-page-active .site-header,
+body.avlux-page-active #masthead,
+body.avlux-page-active .wp-site-blocks > header:not(.avlux-header),
+body.avlux-page-active .wp-site-blocks > .wp-block-template-part:first-child,
+body.avlux-page-active #page > header:not(.avlux-header),
+body.avlux-page-active header.wp-block-template-part,
+body.avlux-page-active .wp-block-template-part:has(> header:not(.avlux-header)),
+body.avlux-page-active .wp-site-blocks > *:has(> header:not(.avlux-header)),
+body.avlux-page-active .wp-site-blocks > *:has(header:not(.avlux-header):not(.avlux-header *)){
+  display:none!important;
+  height:0!important;
+  min-height:0!important;
+  max-height:0!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  overflow:hidden!important;
+}
+body.avlux-page-active .wp-site-blocks,
+body.avlux-page-active .wp-site-blocks > main,
+body.avlux-page-active main,
+body.avlux-page-active #page,
+body.avlux-page-active #content,
+body.avlux-page-active .site-content,
+body.avlux-page-active .content-area,
+body.avlux-page-active #primary,
+body.avlux-page-active .site-main,
+body.avlux-page-active .entry-content,
+body.avlux-page-active .wp-block-post-content{
+  margin-block-start:0!important;
+  padding-block-start:0!important;
+  padding-top:0!important;
+  border-top:0!important;
+}
+body.avlux-page-active .wp-site-blocks > main > :first-child,
+body.avlux-page-active main > :first-child,
+body.avlux-page-active .entry-content > :first-child,
+body.avlux-page-active .wp-block-post-content > :first-child{
+  margin-block-start:0!important;
+  padding-block-start:0!important;
+}
+body.avlux-page-active .wp-block-spacer,
+body.avlux-page-active .wp-block-spacer[style],
+body.avlux-page-active .wp-block-group:empty,
+body.avlux-page-active .wp-block-html:empty{
+  display:none!important;
+  height:0!important;
+  min-height:0!important;
+  margin:0!important;
+  padding:0!important;
+}
+body.avlux-page-active .avlux{
+  margin-top:0!important;
+  padding-top:0!important;
+}
+
+
+/* Aroma Valle' v2.6.5 — consistent full-width branded layouts on every storefront page. */
+body.avlux-storefront-page-active { background:#f5f0e7!important; overflow-x:hidden!important; }
+body.avlux-storefront-page-active .wp-site-blocks,
+body.avlux-storefront-page-active .wp-site-blocks > main,
+body.avlux-storefront-page-active main,
+body.avlux-storefront-page-active #page,
+body.avlux-storefront-page-active #content,
+body.avlux-storefront-page-active .site-content,
+body.avlux-storefront-page-active .content-area,
+body.avlux-storefront-page-active #primary,
+body.avlux-storefront-page-active .site-main,
+body.avlux-storefront-page-active .entry-content,
+body.avlux-storefront-page-active .wp-block-post-content {
+  width:100%!important; max-width:none!important; min-width:0!important;
+  margin:0!important; padding:0!important; border:0!important;
+}
+body.avlux-storefront-page-active .entry-header,
+body.avlux-storefront-page-active .page-header,
+body.avlux-storefront-page-active .wp-block-post-title,
+body.avlux-storefront-page-active h1.wp-block-post-title,
+body.avlux-storefront-page-active .entry-title { display:none!important; }
+body.avlux-storefront-page-active #masthead,
+body.avlux-storefront-page-active .site-header,
+body.avlux-storefront-page-active .site-footer,
+body.avlux-storefront-page-active #colophon,
+body.avlux-storefront-page-active .wp-site-blocks > header:not(.avlux-header):not(.avlux-standalone-header),
+body.avlux-storefront-page-active .wp-site-blocks > footer:not(.avlux-footer):not(.avlux-standalone-footer),
+body.avlux-storefront-page-active .wp-site-blocks > .wp-block-template-part:has(> header),
+body.avlux-storefront-page-active .wp-site-blocks > .wp-block-template-part:has(> footer),
+body.avlux-storefront-page-active .wp-site-blocks > .wp-block-group:has(> header),
+body.avlux-storefront-page-active .wp-site-blocks > .wp-block-group:has(> footer) { display:none!important; }
+body.avlux-storefront-page-active .wp-block-spacer,
+body.avlux-storefront-page-active .wp-block-spacer[style] { display:none!important;height:0!important;min-height:0!important;margin:0!important;padding:0!important; }
+body.avlux-storefront-page-active .wp-site-blocks > main > :first-child,
+body.avlux-storefront-page-active main > :first-child,
+body.avlux-storefront-page-active .entry-content > :first-child,
+body.avlux-storefront-page-active .wp-block-post-content > :first-child { margin-block-start:0!important;padding-block-start:0!important; }
+body.avlux-storefront-page-active .avlux-store-page,
+body.avlux-storefront-page-active .avlux-collections-live { width:100%!important;max-width:none!important;margin:0!important;padding:0!important; }
+body.avlux-storefront-page-active .avlux-announcement { min-height:34px;display:flex;align-items:center;justify-content:center;padding:8px 16px; }
+.avlux-global-header { min-height:82px; }
+.avlux-global-header nav a[aria-current="page"] { color:#98763c;border-bottom:1px solid #b99a61; }
+.avlux-catalog-page-shell { width:100%;max-width:none;margin:0 auto;padding:0 0 70px;background:#f5f0e7; }
+.avlux-catalog-page-intro { text-align:center;padding:62px 22px 28px; }
+.avlux-catalog-page-intro h1 { font:clamp(42px,5vw,66px)/1.08 Georgia,'Times New Roman',serif;letter-spacing:-1.4px;color:#211e19;margin:12px 0 14px; }
+.avlux-catalog-page-intro h1 em { color:#a9884c;font-weight:400; }
+.avlux-catalog-page-intro p { color:#82796d;font-size:14px;line-height:1.8;margin:0 auto;max-width:680px; }
+.avlux-catalog-standalone { max-width:1480px;margin:0 auto!important;padding:12px clamp(18px,4vw,64px) 55px!important; }
+.avlux-catalog-standalone .avlux-catalog-filters { max-width:100%;margin:12px 0 22px;padding:16px;display:grid;grid-template-columns:minmax(220px,1.6fr) minmax(150px,1fr) minmax(150px,1fr) auto auto;gap:10px; }
+.avlux-catalog-standalone .avlux-catalog-count { margin:18px 0 16px;font-size:12px; }
+.avlux-catalog-standalone .avlux-product-grid { grid-template-columns:repeat(4,minmax(0,1fr));gap:20px; }
+.avlux-catalog-standalone .avlux-product-card { display:flex;flex-direction:column;min-height:100%; }
+.avlux-catalog-standalone .avlux-product-image { height:clamp(220px,22vw,310px); }
+.avlux-catalog-standalone .avlux-product-info { display:flex;flex:1;flex-direction:column;padding:18px; }
+.avlux-catalog-standalone .avlux-product-notes { min-height:66px;line-height:1.65; }
+.avlux-catalog-standalone .avlux-product-cta { margin-top:auto; }
+.avlux-catalog-standalone .avlux-catalog-note { display:none; }
+.avlux-store-page .avlux-inner-page { width:min(100% - 40px,1080px);max-width:1080px;margin:54px auto 70px;padding:72px clamp(22px,5vw,70px); }
+.avlux-inner-page .avlux-page-image { width:100%;max-height:440px;object-fit:cover;margin:0 auto 35px;display:block; }
+.avlux-store-page .avlux-standalone-footer { margin-top:0; }
+@media(max-width:1050px) {
+ .avlux-catalog-standalone .avlux-product-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
+ .avlux-catalog-standalone .avlux-catalog-filters { grid-template-columns:repeat(2,minmax(0,1fr)); }
+ .avlux-catalog-standalone .avlux-catalog-filters input { grid-column:1/-1; }
+}
+@media(max-width:700px) {
+ .avlux-global-header { padding:14px 18px; }
+ .avlux-global-header nav { order:3;width:100%;justify-content:flex-start;overflow-x:auto;flex-wrap:nowrap; }
+ .avlux-global-header nav a { white-space:nowrap; }
+ .avlux-catalog-page-intro { padding:42px 18px 20px; }
+ .avlux-catalog-standalone { padding:8px 14px 38px!important; }
+ .avlux-catalog-standalone .avlux-catalog-filters { grid-template-columns:1fr 1fr;gap:8px;padding:12px; }
+ .avlux-catalog-standalone .avlux-catalog-filters input { grid-column:1/-1; }
+ .avlux-catalog-standalone .avlux-product-grid { grid-template-columns:repeat(2,minmax(0,1fr));gap:11px; }
+ .avlux-catalog-standalone .avlux-product-image { height:190px; }
+ .avlux-catalog-standalone .avlux-product-info { padding:12px; }
+ .avlux-catalog-standalone .avlux-product-notes { min-height:76px;font-size:10px; }
+ .avlux-store-page .avlux-inner-page { width:calc(100% - 28px);margin:28px auto 42px;padding:38px 18px; }
+}
+
+
+/* Aroma Valle' v2.6.6 — full-width catalogue layout for constrained WordPress themes.
+   The shortcode may sit inside a theme's narrow post-content column. Break the catalogue
+   out to the viewport, then use a readable max-width inner product grid. */
+body.avlux-catalog-page-active {
+  background:#f5f0e7!important;
+  overflow-x:hidden!important;
+}
+body.avlux-catalog-page-active .wp-site-blocks,
+body.avlux-catalog-page-active .wp-site-blocks > main,
+body.avlux-catalog-page-active main,
+body.avlux-catalog-page-active #page,
+body.avlux-catalog-page-active #content,
+body.avlux-catalog-page-active .site-content,
+body.avlux-catalog-page-active .content-area,
+body.avlux-catalog-page-active #primary,
+body.avlux-catalog-page-active .site-main,
+body.avlux-catalog-page-active .entry-content,
+body.avlux-catalog-page-active .wp-block-post-content {
+  width:100%!important;
+  max-width:none!important;
+  min-width:0!important;
+  margin-inline:0!important;
+  padding-inline:0!important;
+  box-sizing:border-box!important;
+}
+body.avlux-catalog-page-active .entry-header,
+body.avlux-catalog-page-active .page-header,
+body.avlux-catalog-page-active h1.wp-block-post-title,
+body.avlux-catalog-page-active .entry-title {
+  display:none!important;
+}
+body.avlux-catalog-page-active .wp-block-post-content > .wp-block-shortcode,
+body.avlux-catalog-page-active .entry-content > .wp-block-shortcode,
+body.avlux-catalog-page-active .wp-block-post-content > p:has(+ .avlux-v16-catalog),
+body.avlux-catalog-page-active .wp-block-post-content > .wp-block-group {
+  width:100%!important;
+  max-width:none!important;
+  margin-inline:0!important;
+}
+body.avlux-catalog-page-active .avlux-v16-catalog {
+  display:block!important;
+  width:100vw!important;
+  max-width:100vw!important;
+  margin-left:calc(50% - 50vw)!important;
+  margin-right:calc(50% - 50vw)!important;
+  padding:42px clamp(18px,4vw,72px) 84px!important;
+  background:#f5f0e7!important;
+  color:#211e19!important;
+  box-sizing:border-box!important;
+  overflow:visible!important;
+}
+body.avlux-catalog-page-active .avlux-v16-catalog .avlux-catalog-head {
+  width:min(100%,920px)!important;
+  max-width:920px!important;
+  margin:0 auto 32px!important;
+  text-align:center!important;
+}
+body.avlux-catalog-page-active .avlux-v16-catalog .avlux-catalog-head h2 {
+  font-size:clamp(38px,4.2vw,60px)!important;
+  line-height:1.08!important;
+  margin:12px 0 14px!important;
+}
+body.avlux-catalog-page-active .avlux-v16-catalog .avlux-catalog-head p {
+  font-size:14px!important;
+  line-height:1.8!important;
+  max-width:720px!important;
+  margin:0 auto!important;
+}
+body.avlux-catalog-page-active .avlux-v16-catalog .avlux-catalog-filters,
+body.avlux-catalog-page-active .avlux-v16-catalog .avlux-catalog-count,
+body.avlux-catalog-page-active .avlux-v16-catalog .avlux-v16-cartbar,
+body.avlux-catalog-page-active .avlux-v16-catalog .avlux-product-grid,
+body.avlux-catalog-page-active .avlux-v16-catalog .avlux-v16-checkout {
+  width:min(100%,1680px)!important;
+  max-width:1680px!important;
+  margin-left:auto!important;
+  margin-right:auto!important;
+}
+body.avlux-catalog-page-active .avlux-v16-catalog .avlux-catalog-filters {
+  display:grid!important;
+  grid-template-columns:minmax(240px,1.7fr) minmax(170px,1fr) minmax(170px,1fr) auto auto!important;
+  gap:12px!important;
+  align-items:center!important;
+  padding:18px!important;
+  margin-top:24px!important;
+  margin-bottom:24px!important;
+}
+body.avlux-catalog-page-active .avlux-v16-catalog .avlux-product-grid {
+  display:grid!important;
+  grid-template-columns:repeat(4,minmax(0,1fr))!important;
+  gap:22px!important;
+  align-items:stretch!important;
+}
+body.avlux-catalog-page-active .avlux-v16-catalog .avlux-product-card {
+  min-width:0!important;
+  height:100%!important;
+  display:flex!important;
+  flex-direction:column!important;
+  background:#fbf8f2!important;
+  border:1px solid #e1d5c1!important;
+  box-shadow:0 5px 18px rgba(50,37,20,.045)!important;
+}
+body.avlux-catalog-page-active .avlux-v16-catalog .avlux-product-image {
+  width:100%!important;
+  height:auto!important;
+  aspect-ratio:4/4.4!important;
+  flex:0 0 auto!important;
+  background:#211a13!important;
+}
+body.avlux-catalog-page-active .avlux-v16-catalog .avlux-product-image img {
+  width:100%!important;
+  height:100%!important;
+  object-fit:cover!important;
+}
+body.avlux-catalog-page-active .avlux-v16-catalog .avlux-product-info {
+  display:flex!important;
+  flex:1 1 auto!important;
+  flex-direction:column!important;
+  padding:clamp(16px,1.5vw,24px)!important;
+}
+body.avlux-catalog-page-active .avlux-v16-catalog .avlux-product-info h3 {
+  font-size:clamp(21px,1.6vw,27px)!important;
+  line-height:1.2!important;
+  margin:9px 0 5px!important;
+}
+body.avlux-catalog-page-active .avlux-v16-catalog .avlux-product-brand {
+  font-size:12px!important;
+  line-height:1.5!important;
+}
+body.avlux-catalog-page-active .avlux-v16-catalog .avlux-product-notes {
+  font-size:13px!important;
+  line-height:1.75!important;
+  min-height:0!important;
+  margin:12px 0 16px!important;
+}
+body.avlux-catalog-page-active .avlux-v16-catalog .avlux-v16-size-label {
+  margin-top:auto!important;
+  padding-top:12px!important;
+  font-size:10px!important;
+}
+body.avlux-catalog-page-active .avlux-v16-catalog .avlux-v16-size {
+  min-height:46px!important;
+  font-size:13px!important;
+}
+body.avlux-catalog-page-active .avlux-v16-catalog .avlux-price-request {
+  font-size:17px!important;
+  padding:12px 0 16px!important;
+}
+body.avlux-catalog-page-active .avlux-v16-catalog .avlux-product-cta {
+  display:flex!important;
+  width:100%!important;
+  min-height:48px!important;
+  align-items:center!important;
+  justify-content:space-between!important;
+  padding:14px 16px!important;
+  font-size:11px!important;
+}
+body.avlux-catalog-page-active .avlux-v16-catalog .avlux-v16-unpriced {
+  margin-top:auto!important;
+  padding:14px 0!important;
+  font-size:12px!important;
+}
+body.avlux-catalog-page-active .avlux-v16-catalog .avlux-v16-cartbar {
+  padding:20px 24px!important;
+  margin-top:22px!important;
+  margin-bottom:24px!important;
+}
+@media(max-width:1250px) {
+  body.avlux-catalog-page-active .avlux-v16-catalog .avlux-product-grid {
+    grid-template-columns:repeat(3,minmax(0,1fr))!important;
+    gap:18px!important;
+  }
+}
+@media(max-width:900px) {
+  body.avlux-catalog-page-active .avlux-v16-catalog {
+    padding:32px 18px 60px!important;
+  }
+  body.avlux-catalog-page-active .avlux-v16-catalog .avlux-product-grid {
+    grid-template-columns:repeat(2,minmax(0,1fr))!important;
+    gap:14px!important;
+  }
+  body.avlux-catalog-page-active .avlux-v16-catalog .avlux-catalog-filters {
+    grid-template-columns:repeat(2,minmax(0,1fr))!important;
+  }
+  body.avlux-catalog-page-active .avlux-v16-catalog .avlux-catalog-filters input {
+    grid-column:1/-1!important;
+  }
+}
+@media(max-width:520px) {
+  body.avlux-catalog-page-active .avlux-v16-catalog {
+    padding:26px 12px 44px!important;
+  }
+  body.avlux-catalog-page-active .avlux-v16-catalog .avlux-product-grid {
+    grid-template-columns:repeat(2,minmax(0,1fr))!important;
+    gap:9px!important;
+  }
+  body.avlux-catalog-page-active .avlux-v16-catalog .avlux-product-info {
+    padding:10px!important;
+  }
+  body.avlux-catalog-page-active .avlux-v16-catalog .avlux-product-info h3 {
+    font-size:17px!important;
+  }
+  body.avlux-catalog-page-active .avlux-v16-catalog .avlux-product-notes {
+    font-size:10px!important;
+    line-height:1.55!important;
+  }
+  body.avlux-catalog-page-active .avlux-v16-catalog .avlux-product-image {
+    aspect-ratio:1/1.15!important;
+  }
+  body.avlux-catalog-page-active .avlux-v16-catalog .avlux-catalog-filters {
+    grid-template-columns:1fr 1fr!important;
+    padding:11px!important;
+    gap:8px!important;
+  }
+  body.avlux-catalog-page-active .avlux-v16-catalog .avlux-catalog-filters input {
+    grid-column:1/-1!important;
+    min-width:0!important;
+  }
+  body.avlux-catalog-page-active .avlux-v16-catalog .avlux-catalog-filters button {
+    padding:0 8px!important;
+  }
+}
+
+/* v2.6.9: Preserve the original 2.6.8 storefront design and force true full-width rendering across WordPress themes/Playground. */
+body:has(.avlux-page-active), body.avlux-page-active { overflow-x:hidden!important; }
+body.avlux-page-active #page, body.avlux-page-active #content,
+body.avlux-page-active .site, body.avlux-page-active .site-content,
+body.avlux-page-active .content-area, body.avlux-page-active #primary,
+body.avlux-page-active .site-main, body.avlux-page-active main,
+body.avlux-page-active .entry-content, body.avlux-page-active .wp-block-post-content,
+body.avlux-page-active .wp-block-shortcode, body.avlux-page-active .wp-site-blocks,
+body.avlux-page-active .wp-site-blocks > main,
+body.avlux-page-active .is-layout-constrained,
+body.avlux-page-active .is-layout-flow {
+  width:100%!important; max-width:none!important; min-width:0!important;
+  margin-left:0!important; margin-right:0!important;
+  padding-left:0!important; padding-right:0!important;
+}
+body.avlux-page-active .entry-header, body.avlux-page-active .page-header,
+body.avlux-page-active .wp-block-post-title, body.avlux-page-active .entry-title,
+body.avlux-page-active .page-title { display:none!important; }
+body.avlux-page-active .avlux, body.avlux-page-active .avlux-store-page {
+  display:block!important; width:100vw!important; max-width:100vw!important;
+  min-width:0!important; margin-left:calc(50% - 50vw)!important;
+  margin-right:calc(50% - 50vw)!important; position:relative!important;
+}
+body.avlux-page-active .wp-block-post-content > .wp-block-shortcode,
+body.avlux-page-active .entry-content > .wp-block-shortcode { width:100%!important; max-width:none!important; }
+body.avlux-page-active .avlux-hero h1 { color:#f5f0e7!important; }
